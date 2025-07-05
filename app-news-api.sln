@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-news-api", "app-news-api\app-news-api.csproj", "{4C7E64E6-B5BA-4035-BC11-51240D5E9EE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-news-api.Data", "app-news-api.Data\app-news-api.Data.csproj", "{BDDB566B-E3FB-4076-99EE-A3B654D83B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-news-api.Model", "app-news-api.Model\app-news-api.Model.csproj", "{197523ED-B69D-47EC-9949-2E97D6BBF1DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4C7E64E6-B5BA-4035-BC11-51240D5E9EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C7E64E6-B5BA-4035-BC11-51240D5E9EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C7E64E6-B5BA-4035-BC11-51240D5E9EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDB566B-E3FB-4076-99EE-A3B654D83B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDB566B-E3FB-4076-99EE-A3B654D83B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDB566B-E3FB-4076-99EE-A3B654D83B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDB566B-E3FB-4076-99EE-A3B654D83B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197523ED-B69D-47EC-9949-2E97D6BBF1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197523ED-B69D-47EC-9949-2E97D6BBF1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197523ED-B69D-47EC-9949-2E97D6BBF1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197523ED-B69D-47EC-9949-2E97D6BBF1DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

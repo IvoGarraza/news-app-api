@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\app-news-api.Data\app-news-api.Data.csproj" />
+    <ProjectReference Include="..\app-news-api.Model\app-news-api.Model.csproj" />
+  </ItemGroup>
+
 </Project>
