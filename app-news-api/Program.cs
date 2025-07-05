@@ -10,9 +10,8 @@ builder.Services.AddSwaggerGen();
 // Configuración de PostgreSQL
 var connectionString = builder.Configuration.GetSection("PostgreSQL:ConnectionString").Value;
 builder.Services.AddSingleton(new PostgreSQLConfiguration(connectionString));
+builder.Services.AddScoped<app_news_api.Data.Repositories.INewsRepository, app_news_api.Data.Repositories.NewsRepository>();
 
-// Registrar el contexto de base de datos
-object value = builder.Services.AddNpgsql<PostgreSQLConfiguration>(connectionString);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

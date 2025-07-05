@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 namespace app_news_api.Data
 {
     public class PostgreSQLConfiguration
-    {   
-       
-        public  PostgreSQLConfiguration(string connectionString) => ConnectionString = connectionString;
+    {
         public string ConnectionString { get; set; }
+
+        public PostgreSQLConfiguration(string connectionString)
+        {
+            ConnectionString = connectionString;
+        }
     }
 }
