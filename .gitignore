@@ -22,10 +22,15 @@ bld/
 node_modules/
 npm-debug.log*
 
-# Environment variables
+# Environment variables / Secrets
 .env
 .env.local
 .env.production
+secrets.json
+
+# appsettings locales (no subir credenciales)
+appsettings.Development.json
+appsettings.Local.json
 
 # Logs
 logs
